@@ -1,0 +1,45 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Centering Content</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+		<div class="big-boy-blue">
+			<div class="big-top"> <img src="images/cropped_1.PNG" class="stretch_img"> </div>
+			<div class="big-bottom"> 
+				<div class="purple"> <img src="images/answer_1a.jpg" class="stretch_img"> </div>
+				<div class="purple"> <img src="images/distopia_1.jfif" class="stretch_img" onclick="nextImage(this)" id="one"> </div>
+				<div class="purple"> <img src="images/answer_1b.jfif" class="stretch_img"> </div>
+			</div>
+			<div class="big-top"> <img src="images/cropped_2.PNG" class="stretch_img"> </div>
+			<div class="big-bottom">
+				<div class="purple"> <img src="images/answer_2a.jfif" class="stretch_img"> </div>
+				<div class="purple"> <img src="images/answer_2b.jfif" class="stretch_img"> </div>
+				<div class="purple"> <img src="images/distopia_2.jpg" class="stretch_img" onclick="nextImage2(this)" id="two"> </div>
+			</div>
+			<div class="big-top"> <img src="images/cropped_3.PNG" class="stretch_img"> </div>
+			<div class="big-bottom">
+				<div class="purple"> <img src="images/distopia_3.jfif" class="stretch_img" onclick="nextImage3(this)" id="three"> </div>
+				<div class="purple"> <img src="images/answer_3a.jfif" class="stretch_img"> </div>
+				<div class="purple"> <img src="images/answer_3b.jfif" class="stretch_img"> </div>
+			</div>
+		</div>
+		
+		<div class="skinny-boy-green">	
+			<div class="half-column grey center-content" class="stretch_img"> <h1>Match all pictures to unlock</h1></div>
+			<div class="half-column grey center-content"> <img src="images/check.png" class="stretch_img" onclick="checkYes(this)"> </div>
+			<div class="half-column  center-content block">
+				<img src="images/arrow.png" id="arrow2" class="stretch_img opaque" onClick="changeScreen()">
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,123 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: flex;
+	/*border: 5px grey solid;*/
+	}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.big-row {
+	height: calc(100%/3);
+	width: 100%;
+	display: block;
+}
+.big-bottom {
+	height: 8.33%;
+	width: 100%;
+	display: flex;
+	/*background-color: yellow;
+	border-top: 5px grey solid;
+	border-bottom: 5px grey solid;
+	border-right: 5px grey solid;*/
+}
+
+.big-top {
+	height: 25%;
+	width: 100%;
+	background-color: red;
+	/*border-bottom: 5px grey solid;*/
+	}
+
+.half-column {
+	height: calc(100%/3);
+	width: 100%;
+	display: block;
+}
+
+.purple {
+	height: 100%;
+	width: calc(100%/3);
+	background-color: purple;
+	/*border: 5px grey solid;*/
+}
+
+.black-box {
+	height: 100%;
+	width: calc(100%/3);
+	background-color: black;
+	display: flex;
+	}
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: #403E4F;
+	height: 100%;
+	}
+
+.black {
+	background-color: #21211F;
+	
+}
+
+.tan {
+	background-color: #7E8167;
+	
+}
+
+.green {
+	background-color: #008514;
+	
+}
+	
+.grey {
+	background-color: #61605A;
+	
+}
+
+.skinny-boy-green {
+	display:block;
+	height:100%;
+	width: 25%;
+	/*border-left: 5px grey solid;*/
+}
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.block {
+	display: block;
+}
+
+.big-boy-blue{
+	display: block;
+	height:	100%;
+	width:	75%;
+	background-color:blue;
+	/*border: 5px grey solid;*/
+}
+
+.stretch_img {
+	height: 100%;
+	width: 100%;
+	border-style: solid;
+	border-color: gray;
+	}
+	
+.opaque {
+	opacity: 0;
+	}
