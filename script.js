@@ -29,7 +29,7 @@ function checkYes(el){
 }	
 function changeScreen(el){
 	if (d.src.match("images/arrow.png")){
-		window.location = 'https://cybersonic60963240.github.io/Yay/';
+		window.location = 'https://cybersonic60963240.github.io/Yay/gameover.html';
 	}
 	else if (d.src.match("images/arrow2.png")){
 		el.src = "images/arrow.png";
