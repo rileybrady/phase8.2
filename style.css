@@ -1,3 +1,4 @@
+
 /* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
 body {
 	height: 100vh;
@@ -119,5 +120,5 @@ body {
 	}
 	
 .opaque {
-	opacity: 0;
+	display: none;
 	}
