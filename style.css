@@ -83,7 +83,7 @@ body {
 	display:block;
 	height:100%;
 	width: 25%;
-	/*border-left: 5px grey solid;*/
+	/* border-left: 5px red solid; */
 }
 
 /* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
@@ -109,14 +109,14 @@ body {
 	height:	100%;
 	width:	75%;
 	background-color:blue;
-	/*border: 5px grey solid;*/
+	/*border: 5px blue solid;*/
 }
 
 .stretch_img {
 	height: 100%;
 	width: 100%;
 	border-style: solid;
-	border-color: gray;
+	border-color: yellow;
 	}
 	
 .opaque {
